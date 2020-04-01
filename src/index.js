@@ -8,7 +8,7 @@ const colors = require('colors');
 
 //Initializations
 const app = express();
-
+const dataBase = require('./database');
 
 //Settings
 app.set('port', process.env.PORT || 3000);
